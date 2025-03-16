@@ -16,5 +16,3 @@ The first input is a string, and the second input is a number. The resulting str
   - using substring() performing the shift.
   - the shift is performed as , given input2 as 2 and input1 as "abcdef" then as input2 is 2 shift last 2 characters to position 0 followed by remaining characters. So, output will be "efabcd"
     
-
-  - 
