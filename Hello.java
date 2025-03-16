@@ -1,15 +1,15 @@
-package test;
+package shiftstring;
 
 import java.util.Scanner;
 
-public class Hello {
+public class Shiftstring {
 
 	public static String rotateString(String input, int shiftAmount) {
 		// Ensure the shift amount is within the length of the string
 		shiftAmount = shiftAmount % input.length();
 		int temp = input.length() - shiftAmount;
-		String roatoatedString = input.substring(temp, input.length()) + input.subSequence(0, temp);
-		return roatoatedString;
+		String rotatedString = input.substring(temp, input.length()) + input.subSequence(0, temp);
+		return rotatedString;
 	}
 
 	public static String promptForString(String prompt, String regex, Scanner in) {
